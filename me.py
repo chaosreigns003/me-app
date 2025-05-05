@@ -70,7 +70,7 @@ for _ in range(years_post_retirement):
 
 fig2, ax2 = plt.subplots()
 years_post = np.arange(retirement_age, life_expectancy + 1)
-ax2.plot(years_post, corpus_left[:-1], color='red', linewidth=2)
+ax2.plot(years_post, corpus_left, color='red', linewidth=2)
 ax2.set_title("Post-Retirement Corpus Drawdown")
 ax2.set_xlabel("Age")
 ax2.set_ylabel("Corpus (₹)")
